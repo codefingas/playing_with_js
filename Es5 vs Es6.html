@@ -5,19 +5,51 @@
 </head>
 <body>
 
+<p>
+	See How Changing one js Keyword totally redefines the outcome of a code<br/>
+
+	Ensure you comment out one function to run the other<br/>
+
+	press Ctrl + Shift + I to view..</br>
+
+	<br>
+	<br>
+	Watch Fork, clone and keep updating it with More...
+	<br>
+	Would be delighted to see what ES6 can do over ES5
+
+	<h3>#ATTAAB</h3>
+	<h4>NODEjs</h4>
+
+</p>
+
 
 
 
 <script type="text/javascript">
+/*===============ES5===============*/
 	var funcs = [];
-for (let i = 0; i < 3; i++) {     
-  funcs[i] = function() {          
-    console.log("My value: " + i); 
-  };
-}
-for (let j = 0; j < 3; j++) {
-  funcs[j]();                     
-}
+		for (var i = 0; i < 3; i++) {     
+		  funcs[i] = function() {          
+		    console.log("My value: " + i); 
+		  };
+		}
+		for (var j = 0; j < 3; j++) {
+		  funcs[j]();                     
+		}
+
+/*=================================*/
+	vvar funcs = [];
+		for (let i = 0; i < 3; i++) {     
+		  funcs[i] = function (){
+		  	console.log("My value: " + i);
+		  }  
+
+		}
+		for (let j = 0; j < 3; j++) {
+		  funcs[j]();                     
+		}
+
 
 </script>
 </body>
